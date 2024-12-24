@@ -78,6 +78,22 @@ Configuring the Raspberry Pi to receive and execute commands.
 Ensuring reliable data transmission between the application and the Raspberry Pi.
 
 For a comprehensive guide on setting up socket communication, refer to this resource: [Socket Programming](https://www.youtube.com/watch?v=79dlpK03t30)
+Using the requirements.txt File
+
+##To ensure that all dependencies for the project are installed, use the requirements.txt file provided. Follow these steps:
+
+Install Python: Ensure that Python is installed on your system. You can download it from python.org.
+
+Install pip: Pip, the Python package installer, should be included with Python. Verify by running:
+
+###pip --version
+
+Install Dependencies:
+Navigate to the project directory containing the requirements.txt file and run the following command:
+
+###pip install -r requirements.txt
+
+This will install all necessary packages, including ConfigArgParse, djitellopy, numpy, opencv-python, tensorflow, and mediapipe.
 
 ## Special Note on Socket Connections in `app.py`
 
